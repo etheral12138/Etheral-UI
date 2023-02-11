@@ -1,6 +1,6 @@
 {
   "name": "etheral-ui",
-  "version": "5.0.3",
+  "version": "5.0.4",
   "main": "lib/index.js",
   "module": "es/index.mjs",
   "files": [
