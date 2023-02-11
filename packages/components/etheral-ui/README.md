@@ -3,10 +3,8 @@
 </h1>
 
 
-- 💪 Vue 3 Composition API
-- 🔥 Written in TypeScript
 
-<p align="center">etheral UI - A Vue.js 3 UI library</p>
+<p align="center">etheral ui - A Vue 3 UI library</p>
 
 ## Install
 

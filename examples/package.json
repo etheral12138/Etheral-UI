@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "etheral",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "etheral-ui": "^5.0.4"
+  }
 }
