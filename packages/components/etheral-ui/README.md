@@ -1,15 +1,15 @@
 <h1 align="center">
-    Etheral-UI
+    etheral-ui
 </h1>
 
 
 
-<p align="center">Etheral-UI - A Vue 3 UI library</p>
+<p align="center">etheral-ui - A Vue 3 UI library</p>
 
 ## Install
 
 ```
-npm i Etheral-UI
+npm i etheral-ui
 ```
 
 ## 快速开始
@@ -19,7 +19,7 @@ npm i Etheral-UI
   <et-button type="primary">按钮</et-button>
 </template>
 <script lang="ts" setup>
-  import { Button } from "Etheral-UI"
+  import { Button } from "etheral-ui"
 </script>
 ```
 
