@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/geeksdidi/etheralui"
+    "url": "https://github.com/etheral12138/Etheral-UI"
   },
   "keywords": [
     "etheral-ui",
     "vue3组件库"
   ],
   "dependencies": {
-    "@etheral-ui/utils": "2.0.4"
+    "@etheral-ui/utils": "1.0.0"
   },
   "sideEffects": [
     "**/*.css"

@@ -7,9 +7,6 @@
     "dev": "vite"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "etheral-ui": "workspace:^1.0.0"
-  }
+  "author": "etheral",
+  "license": "MIT"
 }

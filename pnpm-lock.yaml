@@ -4,6 +4,7 @@ importers:
 
   .:
     specifiers:
+      '@etheral-ui/utils': ^1.0.0
       '@release-it/conventional-changelog': ^5.1.1
       '@types/gulp': ^4.0.9
       '@types/gulp-autoprefixer': ^0.0.33
@@ -31,6 +32,8 @@ importers:
       vite-plugin-libcss: ^1.0.5
       vitest: ^0.21.1
       vue: ^3.2.36
+    dependencies:
+      '@etheral-ui/utils': 1.0.0
     devDependencies:
       '@release-it/conventional-changelog': 5.1.1_release-it@15.5.0
       '@types/gulp': 4.0.10
@@ -345,6 +348,10 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@etheral-ui/utils/1.0.0:
+    resolution: {integrity: sha512-3WysF2BtJZ3FJc3+fjsiqMfpbRp+Kr8OqJKSSL8YjFG6l6PkUnkC3evNLhgGLJZ0ZE+p1n6tdA5Kb55GJIAEtQ==}
+    dev: false
 
   /@hutson/parse-repository-url/3.0.2:
     resolution: {integrity: sha512-H9XAx3hc0BQHY6l+IFSWHDySypcXsvsuLhgYLUGywmJ5pswRVQJUHpOsobnLYp2ZUaUlKiKDrgWWhosOwAEM8Q==}
