@@ -47,6 +47,7 @@
     "vue": "^3.2.36"
   },
   "dependencies": {
-    "@etheral-ui/utils": "^1.0.0"
+    "@etheral-ui/utils": "^1.0.0",
+    "markdown-it": "^13.0.1"
   }
 }
