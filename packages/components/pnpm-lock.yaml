@@ -1,0 +1,13 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@etheral-ui/utils': ^1.0.0
+
+dependencies:
+  '@etheral-ui/utils': 1.0.0
+
+packages:
+
+  /@etheral-ui/utils/1.0.0:
+    resolution: {integrity: sha512-3WysF2BtJZ3FJc3+fjsiqMfpbRp+Kr8OqJKSSL8YjFG6l6PkUnkC3evNLhgGLJZ0ZE+p1n6tdA5Kb55GJIAEtQ==}
+    dev: false

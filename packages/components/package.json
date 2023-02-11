@@ -1,0 +1,25 @@
+{
+  "name": "etheral-ui",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "etheral-ui",
+    "vue3组件库"
+  ],
+  "author": "etheral",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.d.ts",
+  "dependencies": {
+    "@etheral-ui/utils": "^1.0.0"
+  }
+}
