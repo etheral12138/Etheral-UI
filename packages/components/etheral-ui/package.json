@@ -1,6 +1,6 @@
 {
-  "name": "Etheral-UI",
-  "version": "1.0.0",
+  "name": "etheral-ui",
+  "version": "5.0.5",
   "main": "lib/index.js",
   "module": "es/index.mjs",
   "files": [
@@ -15,7 +15,7 @@
     "url": "https://github.com/etheral12138/Etheral-UI"
   },
   "keywords": [
-    "Etheral-UI",
+    "etheral-ui",
     "vue3组件库"
   ],
   "dependencies": {
