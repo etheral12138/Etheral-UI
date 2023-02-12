@@ -10,6 +10,6 @@
   "author": "etheral",
   "license": "MIT",
   "dependencies": {
-    "etheral-ui": "^5.0.4"
+    "et-design": "^1.0.0"
   }
 }

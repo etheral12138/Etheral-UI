@@ -1,6 +1,6 @@
 {
-  "name": "etheral-ui",
-  "version": "5.0.3",
+  "name": "et-design",
+  "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
     "build": "vite build",
@@ -12,7 +12,7 @@
     "lib"
   ],
   "keywords": [
-    "etheral-ui",
+    "et-design",
     "vue3组件库"
   ],
   "author": "etheral",
