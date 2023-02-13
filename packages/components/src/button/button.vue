@@ -10,7 +10,7 @@
 </template>
 
 <script lang="ts">
-import './style/index.less'
+import '../index.less'
 import { defineComponent, computed, useSlots } from 'vue'
 import { buttonProps } from './types'
 import Icon from '../icon/icon.vue'

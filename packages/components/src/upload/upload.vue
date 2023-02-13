@@ -21,7 +21,7 @@
 </template>
 
 <script setup lang="ts">
-import './style/index.less'
+import '../index.less'
 import { ref } from 'vue'
 import Icon from '../icon/icon.vue'
 import Drager from './dragger.vue'

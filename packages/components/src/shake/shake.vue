@@ -5,7 +5,7 @@
 </template>
 <script lang='ts' setup>
 import { watch } from 'vue'
-import "./style/index.less"
+import "../index.less"
 defineOptions({
     name: 'et-shake'
 })

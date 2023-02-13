@@ -3,7 +3,7 @@ import run from '../utils/run'
 import { src, dest } from 'gulp'
 //复制
 const copypackage = async () => {
-    return src(`${pkgPath}/transitpkg/**`).pipe(dest(`${componentPath}/etheral-ui/`));
+    return src(`${pkgPath}/transitpkg/**`).pipe(dest(`${componentPath}/et-design/`));
 };
 //发布组件
 export const publish = async () => {
@@ -12,7 +12,7 @@ export const publish = async () => {
     //复制到dist目录
     await copypackage()
     //在dist下执行发布命令
-    await run('npm publish --access=public', `${componentPath}/etheral-ui`)
+    await run('npm publish --access=public', `${componentPath}/et-design`)
     // run('pnpm publish')
 
 }

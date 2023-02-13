@@ -26,7 +26,7 @@ export default defineConfig({
           preserveModules: true,
           exports: "named",
           //配置打包根目录
-          dir: resolve(__dirname, "./etheral-ui/es"),
+          dir: resolve(__dirname, "./et-design/es"),
         },
         {
           format: "cjs",
@@ -36,7 +36,7 @@ export default defineConfig({
           preserveModules: true,
           exports: "named",
           //配置打包根目录
-          dir: resolve(__dirname, "./etheral-ui/lib"),
+          dir: resolve(__dirname, "./et-design/lib"),
         },
       ],
     },
@@ -52,8 +52,8 @@ export default defineConfig({
     dts({
       entryRoot: "src",
       outputDir: [
-        resolve(__dirname, "./etheral-ui/es/src"),
-        resolve(__dirname, "./etheral-ui/lib/src"),
+        resolve(__dirname, "./et-design/es/src"),
+        resolve(__dirname, "./et-design/lib/src"),
       ],
       //指定使用的tsconfig.json为我们整个项目根目录下掉,如果不配置,你也可以在components下新建tsconfig.json
       tsConfigFilePath: "../../tsconfig.json",
