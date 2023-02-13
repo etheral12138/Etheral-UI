@@ -1,12 +1,20 @@
 <template>
-    <div class="shake">
+  <div>
+    <Icon name="favorite" color="red" />
+    <Icon name="favorite" color="green" />
+    <Icon name="favorite" color="blue" />
+    <Icon name="favorite" color="yellow" />
+  </div>
 
-    </div>
+
 </template>
 <script lang='ts' setup>
-import { ref } from 'vue'
-const isshake = ref(true)
+import {Icon} from 'et-design'
 </script>
 <style lang='less'>
-
+.etheral-icon {
+  font-size: 36px;
+  color: #666;
+  margin-right: 20px;
+}
 </style>
