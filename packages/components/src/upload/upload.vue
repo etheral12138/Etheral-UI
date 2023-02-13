@@ -5,7 +5,7 @@
         <div @click="fileUpload" v-if="!props.drag">
             <slot />
         </div>
-        <Drager v-else @getFilesList="getFilesList" @fileUpload="fileUpload" />
+        <Dragger v-else @getFilesList="getFilesList" @fileUpload="fileUpload" />
         <div class="et-upload-list">
             <div class="et-upload-list_item" v-for="(item, index) in filesList" :key="index">
                 <div class="et-upload-list_item-name">
@@ -21,10 +21,10 @@
 </template>
 
 <script setup lang="ts">
-import './style/index.less'
+import '../../src/index.less'
 import { ref } from 'vue'
 import Icon from '../icon/icon.vue'
-import Drager from './dragger.vue'
+import Dragger from './dragger.vue'
 
 export type Emits = {
     (e: 'getFilesList', value: File[]): void

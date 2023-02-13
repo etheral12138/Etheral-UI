@@ -30,7 +30,7 @@
     </div>
 </template>
 <script setup lang="ts">
-import './style/index.less'
+import '../../src/index.less'
 import { useAttrs, computed, ref, nextTick, shallowRef, watch, useSlots } from 'vue'
 import Icon from '../icon/index'
 import { calcTextareaHeight } from './utils'

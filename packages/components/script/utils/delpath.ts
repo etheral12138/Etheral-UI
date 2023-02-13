@@ -31,7 +31,7 @@ const delPath = async (path: string) => {
 
         });
 
-        if (path != `${componentPath}/etheral-ui`) fs.rmdirSync(path);
+        if (path != `${componentPath}/et-design`) fs.rmdirSync(path);
 
 
     }
