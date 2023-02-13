@@ -1,0 +1,35 @@
+{
+  "name": "et-design",
+  "version": "1.0.5",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "files": [
+    "es",
+    "lib",
+    "css"
+  ],
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/etheral12138/et-design"
+  },
+  "keywords": [
+    "et-design",
+    "vue3组件库"
+  ],
+  "dependencies": {
+    "@etheral-ui/utils": "1.0.0"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "etheral",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.d.ts",
+  "devDependencies": {
+    "release-it": "^15.5.0"
+  }
+}
