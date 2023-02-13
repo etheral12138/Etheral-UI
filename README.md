@@ -1,16 +1,16 @@
 <h1 align="center">
-    etheral-UI
+    et-design
 </h1>
 
 - 💪 Vue 3 Composition API
 - 🔥 Written in TypeScript
 
-<p align="center">etheral UI - A Vue.js 3 UI library</p>
+<p align="center">et-design - A Vue.js 3 UI library</p>
 
 ## Install
 
 ```
-npm i etheral-ui
+npm i et-design
 ```
 
 ## 快速开始
@@ -20,7 +20,7 @@ npm i etheral-ui
   <et-button type="primary">按钮</et-button>
 </template>
 <script lang="ts" setup>
-  import { Button } from "etheral-ui";
+  import { Button } from "et-design";
 </script>
 ```
 
