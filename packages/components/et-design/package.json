@@ -1,6 +1,6 @@
 {
   "name": "et-design",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "lib/index.js",
   "module": "es/index.mjs",
   "files": [
@@ -9,7 +9,7 @@
     "css"
   ],
   "scripts": {
-    "release": "release-it"
+
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
   "sideEffects": [
     "**/*.css"
   ],
-  "author": "",
+  "author": "etheral",
   "license": "MIT",
   "description": "",
   "typings": "lib/index.d.ts",
