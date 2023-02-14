@@ -7,7 +7,7 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "build:etheral": "gulp -f packages/components/script/build/gulpfile.ts&& cp-cli packages/components/src/theme-chalk packages/components/etheral-ui/theme-chalk",
+    "build:etheral": "gulp -f packages/components/script/build/gulpfile.ts&& cp-cli packages/components/src/theme-chalk packages/components/et-design/theme-chalk",
     "publish:etheral": "pnpm run --filter ./packages/components/etheral-ui release",
     "docs:dev": "pnpm run --filter ./site docs:dev",
     "docs:build": "pnpm run --filter ./site docs:build",

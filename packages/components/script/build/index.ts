@@ -14,7 +14,7 @@ export const buildStyle = () => {
   return src(`${componentPath}/src/theme-chalk/*.scss`)
     .pipe(less())
     .pipe(autoprefixer())
-    .pipe(dest(`${componentPath}/etheral-ui/theme-chalk`))
+    .pipe(dest(`${componentPath}/et-design/theme-chalk`))
 };
 
 //打包组件
