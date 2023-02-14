@@ -1,15 +1,14 @@
 {
   "name": "et-design",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "lib/index.js",
   "module": "es/index.mjs",
   "files": [
     "es",
-    "lib",
-    "css"
+    "lib"
   ],
   "scripts": {
-
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
@@ -25,7 +24,7 @@
   "sideEffects": [
     "**/*.css"
   ],
-  "author": "etheral",
+  "author": "",
   "license": "MIT",
   "description": "",
   "typings": "lib/index.d.ts",
