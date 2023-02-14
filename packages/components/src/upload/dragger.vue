@@ -9,7 +9,7 @@
 </template>
 
 <script setup lang="ts">
-import '../../src/index.less'
+import '../theme-chalk/drag.less'
 import { ref, onMounted } from 'vue'
 import Icon from '../icon/icon.vue'
 const emits = defineEmits(['getFilesList', 'fileUpload'])

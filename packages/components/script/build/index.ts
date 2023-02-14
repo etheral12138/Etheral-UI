@@ -6,15 +6,15 @@ import delpath from "../utils/delpath";
 import run from "../utils/run";
 //删除dist
 export const removeDist = () => {
-  return delpath(`${componentPath}/et-design`);
+  return delpath(`${componentPath}/etheral-ui`);
 };
 
 //处理样式
 export const buildStyle = () => {
-  return src(`${componentPath}/src/index.less`)
+  return src(`${componentPath}/src/theme-chalk/*.scss`)
     .pipe(less())
     .pipe(autoprefixer())
-    .pipe(dest(`${componentPath}/et-design/es/src`));
+    .pipe(dest(`${componentPath}/etheral-ui/theme-chalk`))
 };
 
 //打包组件
