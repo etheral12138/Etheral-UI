@@ -9,11 +9,11 @@
   "keywords": [],
   "author": "etheral",
   "license": "MIT",
-  "dependencies": {
-    "et-design": "^1.0.0"
-  },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.9.3",
-    "vite": "^2.5.10"
+    "vite": "^4.1.1",
+    "vue": "3.2.45"
+  },
+  "dependencies": {
+    "et-design": "1.0.1"
   }
 }
